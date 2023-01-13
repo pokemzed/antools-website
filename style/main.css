@@ -20,7 +20,7 @@
 .title-main__wrap p{
     color: var(--second-color);
     width: 40%;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 /* INPUT STYLE */
@@ -53,22 +53,6 @@
     color: var(--second-color);
 
     outline: none;
-}
-#buttonSearch{
-    width: 30%;
-    height: 48px;
-
-    background-color: var(--elem-color);
-    color: var(--text-color);
-    font-weight: 600;
-
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: .3s;
-}
-#buttonSearch:hover{
-    background-color: #ff8e5e;
 }
 
 /* SOCIAL STYLE */

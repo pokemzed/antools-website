@@ -3,7 +3,11 @@
     --elem-color: #FF6E30;
     --second-color: rgba(255, 255, 255, 0.55);
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #1E252B;
     font-family: 'Poppins', sans-serif;
@@ -44,4 +48,21 @@ span{
 
 ul li{
     list-style: none;
+}
+
+.button{
+    width: 30%;
+    height: 48px;
+
+    background-color: var(--elem-color);
+    color: var(--text-color);
+    font-weight: 600;
+
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+.button:hover{
+    background-color: #ff8e5e;
 }

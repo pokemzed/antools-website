@@ -1,0 +1,35 @@
+.newcomer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-bottom: 100px;
+}
+.newcomer-text, .newcomer-tools{
+    width: 50%;
+}
+.newcomer-text p{
+    width: 65%;
+    margin: 30px 0 60px 0;
+}
+#explore{
+    width: 45%;
+    height: 60px;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+.newcomer-tools{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.newcomer-tool{
+    width: 48%;
+    height: 270px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+.newcomer-tool p{
+    font-size: 14px;
+}

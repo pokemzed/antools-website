@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,22 +14,27 @@
     <!-- Components CSS -->
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/tools.css">
+    <link rel="stylesheet" href="./style/brand.css">
+    <link rel="stylesheet" href="./style/newcomer.css">
     <title>antools</title>
 </head>
+
 <body>
-        <header class="header grid">
-            <img src="./images/antools-logo.svg" alt="logo">
-            <ul class="nav">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Collections</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-            <div class="autorisation">
-                <a href="#">Login</a>
-                <button id="signUp">Sign Up</button>
-            </div>
-        </header>
+    <header class="header grid">
+        <img src="./images/antools-logo.svg" alt="logo">
+        <ul class="nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#popular">Popular tools</a></li>
+            <li><a href="#newcomer">Newcomer</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <div class="autorisation">
+            <a href="#">Login</a>
+            <button id="signUp" class="button">Sign Up</button>
+        </div>
+    </header>
+
     <main class="main grid">
         <div class="title-main__wrap">
             <h1>Awesome tools for
@@ -43,7 +49,7 @@
                 <img src="./images/main/search.svg" alt="search">
                 <input type="text" id="mainInput" placeholder="find more than 430+ tools...">
             </div>
-            <button id="buttonSearch">Search</button>
+            <button id="buttonSearch" class="button">Search</button>
         </div>
         <div class="main-social__wrap">
             <img src="./images/icons/facebook.svg" alt="facebook">
@@ -53,7 +59,87 @@
         <img class="background-main" src="./images/main/back-illustration.svg" alt="main-back">
     </main>
 
+    <div class="popular-tools grid" id="popular">
+        <div class="popular-tools_title">
+            <h2>Most Popular Tools</h2>
+            <p>
+                Tools for the best Designers and Developers
+                most popularly used in the world
+            </p>
+        </div>
+        <div class="tools-category">
+            <!-- <div class="figma-tool tool">
+                <div class="tool-main__wrap">
+                    <img src="./images/popular tools/figma.svg" alt="figma">
+                    <div class="tool-title">
+                        <h3>FIGMA</h3>
+                        <span>Free</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="tool-controls__wrap">
+                    <div class="controls-elements">
+                        <img class="like-tool" src="./images/icons/like.svg" alt="like">
+                        <img class="fav-tool" src="./images/icons/favorite.svg" alt="favorite">
+                    </div>
+                    <button id="visitCards">Visit</button>
+                </div>
+            </div> -->
+        </div>
+        <div class="button-tools">
+            <button id="loadMore">Load more</button>
+        </div>
+    </div>
 
-    <script src="./script/"></script>
+    <div class="brand grid">
+        <div class="brands">
+            <h3>Trusted more than 150+ brand</h3>
+            <div class="brands__wrap">
+                <img src="./images/brands/logos_google.png" alt="logos_google">
+                <img src="./images/brands/logos_microsoft.png" alt="logos_microsoft">
+                <img src="./images/brands/logos_slack.png" alt="logos_slack">
+                <img src="./images/brands/logos_wordpress.png" alt="logos_wordpress">
+            </div>
+        </div>
+        <img class="brand-backround" src="./images/brands/brands-back.png"/>
+    </div>
+
+    <div class="newcomer grid" id="newcomer">
+        <div class="newcomer-text">
+            <h2>Newcomer Tools</h2>
+            <p>
+                Wow! see the latest update of the most recommended tools from reliable designers and developers
+            </p>
+            <button id="explore" class="button">Explore more</button>
+        </div>
+        <div class="newcomer-tools">
+            <!-- <div class="newcomer-tool tool">
+                <div class="tool-main__wrap">
+                    <img src="./images/popular tools/figma.svg" alt="figma">
+                    <div class="tool-title">
+                        <h3>FIGMA</h3>
+                        <span>Free</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="tool-controls__wrap">
+                    <div class="controls-elements">
+                        <img class="like-tool" src="./images/icons/like.svg" alt="like">
+                        <img class="fav-tool" src="./images/icons/favorite.svg" alt="favorite">
+                    </div>
+                    <button id="visitCards">Visit</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- NEWCOMER -->
+    <script src="./script/Newcomer/dataNewcomer.js"></script>
+    <script src="./script/Newcomer/Newcomer.js"></script>
+    <!-- TOOLS -->
+    <script src="./script/Tools/data.js"></script>
+    <script src="./script/Tools/Tools.js"></script>
+    <script src="./script/Tools/controlsTools.js"></script>
 </body>
+
 </html>
