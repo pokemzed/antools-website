@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="./style/tools.css">
     <link rel="stylesheet" href="./style/brand.css">
     <link rel="stylesheet" href="./style/newcomer.css">
+    <link rel="stylesheet" href="./style/team.css">
+    <link rel="stylesheet" href="./style/contribution.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <title>antools</title>
 </head>
 
@@ -133,12 +136,88 @@
         </div>
     </div>
 
-    <!-- NEWCOMER -->
-    <script src="./script/Newcomer/dataNewcomer.js"></script>
-    <script src="./script/Newcomer/Newcomer.js"></script>
+    <div class="team grid">
+        <div class="slider__wrap">
+            <img class="slider-scroll slider-left" src="./images/icons/scroll-left.svg" alt="">
+            <div class="galery-info__wrap">
+                <div class="galery-image__wrap">
+                    <img src="./images/galery/photo1.png" alt="">
+                    <div class="description__wrap">
+                        <h3>Ronald Richards</h3>
+                        <p>Product Manager</p>
+                    </div>
+                </div>
+                <div class="galery-text__wrap">
+                    <p>
+                        Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.
+                    </p>
+                    <img src="./images/galery/quotes.png" class="quotes" alt="">
+                </div>
+            </div>
+            <img class="slider-scroll slider-right" src="./images/icons/scroll-right.svg" alt="">
+        </div>
+        <div class="slider__control">
+            <div class="rect"></div>
+            <div class="rect active"></div>
+            <div class="rect"></div>
+        </div>
+    </div>
+
+    <div class="contribution grid">
+        <h2>Become a contributor?</h2>
+        <p>Join us and get tips & tricks to become a great Designer and Developer</p>
+        <div class="input-contribution">
+            <div class="input-search__wrap">
+                <img src="./images/main/search.svg" alt="search">
+                <input type="text" id="mainInput" placeholder="find more than 430+ tools...">
+            </div>
+            <button id="buttonSearch" class="button">Search</button>
+        </div>
+    </div>
+
+    <div class="footer-line"></div>
+    <div class="footer grid">
+        <div class="footer-info__wrap">
+            <img src="./images/antools-logo.svg" alt="logo">
+            <p>Copyright 2021. Antools</p>
+            <span>
+                Antool is a web collection of information on paid or free Design and Development tools
+            </span>
+        </div>
+        <div class="footer-company-info__wrap">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>+621987463</li>
+                    <li>M Building, No.10 A</li>
+                    <li>antools@awesome.com</li>
+                </ul>
+            </div>
+            <div class="footer-categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Development</a></li>
+                </ul>
+            </div>
+            <div class="footer-company">
+                <h3>Company Info</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Partners</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
     <!-- TOOLS -->
     <script src="./script/Tools/data.js"></script>
     <script src="./script/Tools/Tools.js"></script>
+    <!-- NEWCOMER -->
+    <script src="./script/Newcomer/dataNewcomer.js"></script>
+    <script src="./script/Newcomer/Newcomer.js"></script>
+    <!-- CONTROLS -->
     <script src="./script/Tools/controlsTools.js"></script>
 </body>
 
