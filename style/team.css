@@ -29,6 +29,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    transition: .3s;
 }
 .galery-text__wrap{
     width: 40%;
@@ -72,10 +74,7 @@
     background-color: #283036;
 
     transition: .3s;
-    cursor: pointer;
-}
-.rect:hover{
-    background-color: var(--elem-color);
+    /* cursor: pointer; */
 }
 .active{
     height: 10px;

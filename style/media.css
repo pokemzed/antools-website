@@ -1,0 +1,327 @@
+/* Отступы сетки по бокам */
+@media (max-width: 1600px) and (min-width: 400px){
+    .grid {
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 399px) and (min-width: 300px){
+    .grid {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}
+@media (max-width: 1535px){
+    /* HEADER */
+    .header{
+        margin-top: 30px;
+    }
+    .autorisation{
+        width: 20%;
+    }
+    #signUp{
+        width: 70%;
+    }
+    .main{
+        margin-top: 105px;
+    }
+    /* POPULAR */
+    .popular-tools_title{
+        margin: 100px 0;
+    }
+    .tools-category{
+        margin: 0;
+    }
+    /* BRAND */
+    .brand{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 55px 82px;
+    }
+    /* CONTRIBUTION */
+    .contribution{
+        margin-top: 80px;
+    }
+    .input-contribution{
+        margin: 50px 0;
+    }
+    .contribution p{
+        margin-top: 15px;
+    }
+    /* FOOTER */
+    .footer-line{
+        margin-top: 80px;
+    }
+    .footer{
+        padding: 60px 20px;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1335px){
+    /* MAIN */
+    .title-main__wrap h1{
+        line-height: 100%;
+    }
+    .title-main__wrap p{
+        padding: 20px 0;
+    }
+    .main-social__wrap{
+        width: 15%;
+    }
+    /* POPULAR */
+    .popular-tools_title{
+        margin: 250px 0 50px 0;
+    }
+    .tools-category{
+        margin: 0;
+    }
+    /* BRAND */
+    .brands h3{
+        font-size: 24px;
+    }
+    .brand-backround{
+        display: none;
+    }
+    /* CONTRIBUTION */
+    .input-contribution{
+        width: 50%;
+    }
+    /* TEAM */
+    .description__wrap{
+        padding: 20px 80px;
+    }
+    /* FOOTER */
+    .footer-company-info__wrap{
+        width: 50%;
+    }
+    .footer-company-info__wrap li{
+        padding: 10px 0;
+    }
+
+
+    body{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+    }
+    
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 12px;
+    }
+}
+
+
+/* Portrait tablets and small desktops */
+@media (max-width: 990px) {
+    /* HEADER */
+    .nav{
+        display: none;
+    }
+    .autorisation{
+        width: 30%;
+    }
+    #signUp{
+        width: 70%;
+    }
+
+    /* MAIN */
+    .title-main__wrap h1{
+        width: 100%;
+        line-height: 100%;
+    }
+    .title-main__wrap p{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .background-main{
+        display: none;
+    }
+    .input-main__wrap{
+        width: 60%;
+        margin: 30px 0 50px 0;
+    }
+    .main-social__wrap{
+        width: 100px;
+    }
+    .main-social__wrap img{
+        width: 20px;
+        height: 20px;
+    }
+    /* POPULAR */
+    .popular-tools_title{
+        margin: 110px 0 50px 0;
+    }
+    .popular-tools_title p{
+        width: 80%;
+        margin: 20px 0;
+    }
+    /* CATEGORY */
+    .tools-category{
+        margin: 0;
+    }
+    .tool{
+        width: 49%;
+        margin-bottom: 30px;
+    }
+    #loadMore{
+        width: 25%;
+    }
+    /* BRAND */
+    .brands__wrap{
+        padding: 15px 0px 30px 0;
+    }
+    .brands__wrap img{
+        padding: 20px 0;
+        /* width: 160px; */
+    }
+    /* TOOLS */
+    .newcomer-tool{
+        width: 100%;
+    }
+    /* TEAM */
+    .team{
+        display: none;
+    }
+    /* CONTRIBUTION */
+    .input-contribution{
+        width: 80%;
+    }
+    /* FOOTER */
+    .footer-info__wrap span{
+        width: 80%;
+    }
+    .footer-company-info__wrap{
+        flex-wrap: wrap;
+    }
+    .footer-company-info__wrap div{
+        width: 40%;
+    }
+    .footer-company{
+        margin-top: 50px;
+    }
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 700px){
+    /* HEADER */
+    .autorisation{
+        width: 35%;
+    }
+    #signUp{
+        width: 65%;
+    }
+    /* MAIN */
+    .main-social__wrap{
+        width: 80px;
+    }
+    .main-social__wrap img{
+        width: 20px;
+        height: 20px;
+    }
+    .input-main__wrap{
+        width: 90%;
+    }
+    /* CATEGORY */
+    #loadMore{
+        width: 50%;
+    }
+    /* TOOLS */
+    .newcomer{
+        flex-wrap: wrap;
+    }
+    .newcomer-text{
+        width: 100%;
+    }
+    .newcomer-text p{
+        width: 100%;
+        margin: 15px 0 40px 0;
+    }
+    .newcomer-tools{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .newcomer-tools #visitCards{
+        width: 20%;
+    }
+    /* NEWCOMER */
+    #explore{
+        width: 70%;
+    }
+    /* FOOTER */
+    .footer-info__wrap{
+        width: 100%;
+    }
+    .footer-company-info__wrap{
+        margin-top: 50px;
+    }
+    .footer-categories{
+        margin-top: 50px;
+    }
+    .footer-company-info__wrap div{
+        width: 100%;
+    }
+
+
+    body{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--text-color);
+    }
+    
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    span{
+        font-size: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 630px){
+    /* CATEGORY */
+    .tool{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #visitCards{
+        width: 20%;
+    }
+    /* BRAND */
+    .brands h3{
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    /* CONTRIBUTION */
+    .input-contribution{
+        width: 90%;
+    }
+}
